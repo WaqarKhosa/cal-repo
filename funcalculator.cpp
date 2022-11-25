@@ -3,14 +3,14 @@ using namespace std;
 
 void sum(float a, float b)
 {
-    //cout<<"The final result is\n:";
-    cout<<"The final result is:" <<a+b;
+    cout<<"The final result is\n:";
+    return a+b;
 }
 
 float sub(float a, float b)
 {
-   // cout<<"The final result is:"<< a-b;
-   // return a-b;
+    cout<<"The final result is:"<< a-b;
+    return a-b;
 }
 
 float mul(float a, float b)
@@ -59,6 +59,4 @@ int main()
     
         cout<<"You have exited";
         
-    
-
 }
