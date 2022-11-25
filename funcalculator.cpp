@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void sum(float a, float b)
+float sum(float a, float b)
 {
     cout<<"The final result is\n:";
     return a+b;
