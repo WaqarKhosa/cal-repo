@@ -3,7 +3,7 @@ using namespace std;
 
 float sum(float a, float b)
 {
-    cout<<"The final result is\n:";
+    cout<<"The final result is:";
     return a+b;
 }
 
