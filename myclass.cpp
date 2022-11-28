@@ -50,15 +50,12 @@ class MyClass {
           
    int isLowercaseVowel, isUppercaseVowel;
    cout << "Enter an alphabet: ";
-   cin >> ch;
-
-   
+   cin >> ch;   
    isLowercaseVowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
 
    
    isUppercaseVowel = (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
 
-   
    if (isLowercaseVowel || isUppercaseVowel)
       cout << ch << " is a vowel.\n";
    else
