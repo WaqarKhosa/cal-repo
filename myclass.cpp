@@ -39,7 +39,7 @@ class MyClass {
     }
     while (exit != 'E' && exit != 'e');
     
-        cout<<"You have exited: \n";
+        cout<<"You have exited & Enter to myvowel function: \n";
         
     }
     void myvowel(){
