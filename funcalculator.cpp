@@ -3,24 +3,24 @@ using namespace std;
 
 float sum(float a, float b)
 {
-    cout<<"The final result is:";
+    cout<<"The final result is: ";
     return a+b;
 }
 
 float sub(float a, float b)
 {
-    cout<<"The final result is:"<< a-b;
+    cout<<"The final result is: "<< a-b;
     return a-b;
 }
 
 float mul(float a, float b)
 {
-    cout<<"The final result is:";
+    cout<<"The final result is: ";
     return a*b;
 }
 float DIV(float a, float b)
 {
-    cout<<"The final result is:";
+    cout<<"The final result is: ";
     return a/b;
 }
 
@@ -30,11 +30,11 @@ int main()
     do{
     float a,b;
     char ch;
-    cout<<"Enter 1st number:";
+    cout<<"Enter 1st number: ";
     cin>>a;
-    cout<<"Enter the operation you want to perform (+,-,*,/)"<<endl;
+    cout<<"Enter the operation you want to perform (+,-,*,/): ";
     cin>>ch;
-    cout<<"Enter 2nd number:";
+    cout<<"Enter 2nd number: ";
     cin >>b;
     switch(ch)
     {
@@ -53,7 +53,7 @@ int main()
         default:
             cout<<"Invalid input";
     }
-    cout<<"\nPress E for exit or press any button for continue:\n ";
+    cout<<"\nPress E for exit or press any button for continue: ";
     cin>> exit;
 } while (exit != 'E' && exit != 'e');
     

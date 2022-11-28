@@ -53,7 +53,7 @@ class MyClass {
    cin >> ch;   
    isLowercaseVowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
 
-   
+
    isUppercaseVowel = (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
 
    if (isLowercaseVowel || isUppercaseVowel)
