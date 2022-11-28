@@ -52,13 +52,13 @@ class MyClass {
    cout << "Enter an alphabet: ";
    cin >> ch;
 
-   // Evaluates to 1 (true) if ch is a lowercase vowel
+   
    isLowercaseVowel = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
 
-   // Evaluates to 1 (true) if ch is an uppercase vowel
+   
    isUppercaseVowel = (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
 
-   // Evaluates to 1 (true) if either isLowercaseVowel or isUppercaseVowel is true
+   
    if (isLowercaseVowel || isUppercaseVowel)
       cout << ch << " is a vowel.\n";
    else
